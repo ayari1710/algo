@@ -1,0 +1,38 @@
+ALGORITHM algorithm_name
+VAR
+phrase : STRING
+characters, espace,nombrev,i,count : INTEGER
+BEGIN
+REPEAT
+    Read(phrase)
+UNTIL (phrase(len.phrase)=='.')
+    for i in range(0, len(phrase)):  
+    if(phrase[i] != ' '):  
+       espace =espace + 1; 
+    Write("Total number of characters in a string: ",characters);  
+    for i in range(0, len(sentence)):  
+    if(phrase[j] == ' '):  
+        espace = espace + 1;  
+        Write("Total number of words in a string: ", espace);
+    SWITCH (phrase) DO
+        case 1 : for k in range(0, len(phrase)):  
+    if(phrase[k] == 'a'):  
+      nombrev = nombrev + 1;
+        case 2 : for k in range(0, len(phrase)):  
+    if(phrase[k] == 'e'):  
+        nombrev =nombrev + 1
+        case 3 : for k in range(0, len(phrase)):  
+    if(sentence[k] == 'i'):  
+        nombrev =nombrev + 1
+        case 4 : for k in range(0, len(phrase))
+    if(sentence[k] == 'o'):  
+        nombrev = nombrev + 1;
+        case 5 : for k in range(0, len(phrase)):  
+    if(sentence[k] == 'u'):  
+        nbvowels = nbvowels + 1
+        case 6 : for k in range(0, len(phrase)):  
+    if(phrase[k] == 'y'):  
+       nombrev= nombrev + 1
+    default : set_instructions
+    END_SWITCH 
+END
